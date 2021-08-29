@@ -1,0 +1,20 @@
+F001|Sandwich with scrambled egg
+3.00 10
+F002|Fried Chicken with Salad
+4.50 5
+F003|Nasi Lemak
+4.00 9
+F004|Fried Rice
+5.00 8
+F005|Hamburger
+6.00 10
+F006|Chicken Rice
+6.00 10
+F007|Curry Mee
+6.00 10
+F008|Fried Noodles
+6.00 10
+F009|Fish and Chips
+8.00 5
+F010|B.P Chicken Chop
+13.50 3

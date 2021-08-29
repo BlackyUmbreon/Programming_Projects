@@ -1,0 +1,49 @@
+                                   TARC Food Court
+
+Date : Sunday , 11 July 2021                                                Time : 20:53:11
+Customer 1 : Ng Jin Yuan                                               Staff : Lim Wei Yang
+
+Product ID         Product Name                               Quantity           Price (RM)
+===========================================================================================
+B002               Tea                                               2                 4.00
+F009               Fish and Chips                                    5                40.00
+F004               Fried Rice                                        1                 5.00
+
+===========================================================================================
+Sub Total                                                                             49.00
+Discount Allowed                                                                       7.35
+Sales and Service Tax (10%)                                                            4.90
+Grand Total                                                                           46.55
+Rounded Value                                                                          0.00
+Total Amount                                                                          46.55
+
+Amount Paid                                                                           50.00
+Change Due                                                                             3.45
+
+                           Thank you for visiting TARC Food Court
+
+
+
+                                   TARC Food Court
+
+Date : Sunday , 11 July 2021                                                Time : 20:53:11
+Customer 2 : Guest                                                     Staff : Lim Wei Yang
+
+Product ID         Product Name                               Quantity           Price (RM)
+===========================================================================================
+B008               Soya Bean                                         2                 6.00
+
+===========================================================================================
+Sub Total                                                                              6.00
+Sales and Service Tax (10%)                                                            0.60
+Grand Total                                                                            6.60
+Rounded Value                                                                          0.00
+Total Amount                                                                           6.60
+
+Amount Paid                                                                            7.00
+Change Due                                                                             0.40
+
+                           Thank you for visiting TARC Food Court
+
+
+

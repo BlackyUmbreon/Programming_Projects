@@ -1,0 +1,51 @@
+                                   TARC Food Court
+
+Date : Thursday , 27 August 2020                                             Time : 22:8:30
+Customer 1 : Ng Jin Yuan                                               Staff : Lim Wei Yang
+
+Product ID         Product Name                               Quantity           Price (RM)
+===========================================================================================
+F001               Sandwich with scrambled egg                       4                12.00
+
+===========================================================================================
+Sub Total                                                                             12.00
+Discount Allowed                                                                       1.80
+Sales and Service Tax (10%)                                                            1.20
+Grand Total                                                                           11.40
+Rounded Value                                                                          0.00
+Total Amount                                                                          11.40
+
+Amount Paid                                                                           20.00
+Change Due                                                                             8.60
+
+                           Thank you for visiting TARC Food Court
+
+
+
+                                   TARC Food Court
+
+Date : Thursday , 27 August 2020                                             Time : 22:8:30
+Customer 2 : Lee Pit Kei                                               Staff : Lim Wei Yang
+
+Product ID         Product Name                               Quantity           Price (RM)
+===========================================================================================
+F010               B.P Chicken Chop                                  1                13.50
+B011               Mocha                                             2                 9.00
+F004               Fried Rice                                        1                 5.00
+
+===========================================================================================
+Sub Total                                                                             27.50
+Discount Allowed                                                                       4.12
+Sales and Service Tax (10%)                                                            2.75
+Additional Charge                                                                     10.00
+Grand Total                                                                           36.13
+Rounded Value                                                                          0.02
+Total Amount                                                                          36.15
+
+Amount Paid                                                                           40.00
+Change Due                                                                             3.85
+
+                           Thank you for visiting TARC Food Court
+
+
+

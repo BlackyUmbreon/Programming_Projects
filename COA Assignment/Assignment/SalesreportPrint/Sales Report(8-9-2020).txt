@@ -1,0 +1,23 @@
+                                   TARC Food Court
+
+Date : 8-9-2020
+Product Sold
+Product ID         Product Name                          Quantity Sold           Price (RM)
+===========================================================================================
+F002               Fried Chicken with Salad                          3                12.00
+B010               Iced Lemon Tea                                    2                10.00
+F002               Fried Chicken with Salad                          1                 4.50
+
+===========================================================================================
+Total Sub Total                                                                       26.50
+Total Discount Allowed                                                                 3.97
+Total Sales and Service Tax (10%)                                                      2.65
+Total Additional Charge                                                               10.00
+Total Grand Total                                                                     35.18
+Total Rounded Value                                                                    0.02
+Total Total Amount                                                                    35.20
+
+Total Amount Paid                                                                     41.00
+Total Change Due                                                                       5.80
+
+                              Thank you for using TARC POS System

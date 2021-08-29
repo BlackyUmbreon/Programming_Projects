@@ -1,0 +1,10 @@
+27-8-2020|4
+F001|Sandwich with scrambled egg
+4|3.00
+F010|B.P Chicken Chop
+1|13.50
+B011|Mocha
+2|4.50
+F004|Fried Rice
+1|5.00
+39.50 3.95 5.92 10.00 47.53 0.02 47.55 60.00 12.45

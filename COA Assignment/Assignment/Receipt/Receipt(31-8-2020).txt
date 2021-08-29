@@ -1,0 +1,47 @@
+                                   TARC Food Court
+
+Date : Monday , 31 August 2020                                                Time : 0:0:41
+Customer 1 : Ng Jin Yuan                                               Staff : Lim Wei Yang
+
+Product ID         Product Name                               Quantity           Price (RM)
+===========================================================================================
+B001               Mineral Water                                     1                 1.00
+
+===========================================================================================
+Sub Total                                                                              1.00
+Discount Allowed                                                                       0.15
+Sales and Service Tax (10%)                                                            0.10
+Grand Total                                                                            0.95
+Rounded Value                                                                          0.00
+Total Amount                                                                           0.95
+
+Amount Paid                                                                            1.00
+Change Due                                                                             0.05
+
+                           Thank you for visiting TARC Food Court
+
+
+
+                                   TARC Food Court
+
+Date : Monday , 31 August 2020                                               Time : 1:32:55
+Customer 2 : Guest                                                     Staff : Lim Wei Yang
+
+Product ID         Product Name                               Quantity           Price (RM)
+===========================================================================================
+B011               Mocha                                             1                 4.50
+
+===========================================================================================
+Sub Total                                                                              4.50
+Sales and Service Tax (10%)                                                            0.45
+Grand Total                                                                            4.95
+Rounded Value                                                                          0.00
+Total Amount                                                                           4.95
+
+Amount Paid                                                                            5.00
+Change Due                                                                             0.05
+
+                           Thank you for visiting TARC Food Court
+
+
+

@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Main Module">
+      <UniqueIdentifier>{7c72130d-59e5-48b4-9980-6ecfac0d0809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Staff Module">
+      <UniqueIdentifier>{93dc0c78-7b61-4374-bce6-2cddcba6636d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Product Module">
+      <UniqueIdentifier>{82c61d6c-b687-4e3e-bff8-9d8c967ed0cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ordering Module">
+      <UniqueIdentifier>{127bd12e-0e5d-447f-9c58-915250eb9f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Billing Module">
+      <UniqueIdentifier>{cf6e0b7c-52da-40c3-bede-bf4ebcfe7129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Useful Assembly Language">
+      <UniqueIdentifier>{9296ed25-62af-4e74-9897-b2fc8d858bce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{5cebcdf3-b6fe-4652-ada2-5238fd299603}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main Menu.cpp">
+      <Filter>Main Module</Filter>
+    </ClCompile>
+    <ClCompile Include="mainModule.cpp">
+      <Filter>Main Module</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScreen.cpp">
+      <Filter>Main Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductMainMenu.cpp">
+      <Filter>Product Module</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayProductList.cpp">
+      <Filter>Product Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadProductFile.cpp">
+      <Filter>Product Module</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayStaffList.cpp">
+      <Filter>Staff Module</Filter>
+    </ClCompile>
+    <ClCompile Include="StaffMainMenu.cpp">
+      <Filter>Staff Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadStaffFile.cpp">
+      <Filter>Staff Module</Filter>
+    </ClCompile>
+    <ClCompile Include="User Sign In.cpp">
+      <Filter>Main Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Staff Registration.cpp">
+      <Filter>Staff Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Staff Modification.cpp">
+      <Filter>Staff Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Staff Removing.cpp">
+      <Filter>Staff Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductAdding.cpp">
+      <Filter>Product Module</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateProduct.cpp">
+      <Filter>Product Module</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateStaff.cpp">
+      <Filter>Staff Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Product Modification.cpp">
+      <Filter>Product Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Product Removing.cpp">
+      <Filter>Product Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Stock Control.cpp">
+      <Filter>Product Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Ordering Algorithm.cpp">
+      <Filter>Ordering Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Before Order.cpp">
+      <Filter>Ordering Module</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderInput.cpp">
+      <Filter>Ordering Module</Filter>
+    </ClCompile>
+    <ClCompile Include="After Order.cpp">
+      <Filter>Ordering Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Billing Algorithm.cpp">
+      <Filter>Billing Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculation.cpp">
+      <Filter>Billing Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Membership.cpp">
+      <Filter>Billing Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ReceiptMaker.cpp">
+      <Filter>Billing Module</Filter>
+    </ClCompile>
+    <ClCompile Include="AfterBilling.cpp">
+      <Filter>Billing Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Sales Report Printing.cpp">
+      <Filter>Main Module</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Structure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="printString.asm">
+      <Filter>Useful Assembly Language</Filter>
+    </MASM>
+    <MASM Include="IDComparison.asm">
+      <Filter>Useful Assembly Language</Filter>
+    </MASM>
+    <MASM Include="passwordComparison.asm">
+      <Filter>Useful Assembly Language</Filter>
+    </MASM>
+    <MASM Include="PasswordEncrypt.asm">
+      <Filter>Useful Assembly Language</Filter>
+    </MASM>
+    <MASM Include="GetInput.asm">
+      <Filter>Useful Assembly Language</Filter>
+    </MASM>
+    <MASM Include="quantityControl.asm">
+      <Filter>Useful Assembly Language</Filter>
+    </MASM>
+    <MASM Include="BillingCalculate.asm">
+      <Filter>Useful Assembly Language</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Database\Staff List.txt">
+      <Filter>Database</Filter>
+    </Text>
+    <Text Include="Database\Membership List.txt">
+      <Filter>Database</Filter>
+    </Text>
+    <Text Include="Database\Food List.txt">
+      <Filter>Database</Filter>
+    </Text>
+    <Text Include="Database\Beverage List.txt">
+      <Filter>Database</Filter>
+    </Text>
+    <Text Include="Database\numberOfCustomer.txt">
+      <Filter>Database</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
