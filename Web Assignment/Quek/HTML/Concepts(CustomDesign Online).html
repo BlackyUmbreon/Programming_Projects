@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Custom Design Concept</title>
+    <link rel="icon" href="../Picture/Website Logo.jpg">
+    <link rel="stylesheet" href="../Css/Menu Bar.css">
+    <link rel="stylesheet" href="../Css/Page.css">
+    <link rel="stylesheet" href="../Css/footer.css">
+    <link rel="stylesheet" href="../Css/Concepts(CustomDesign).css">
+    <script src="../Javascript/Concepts1.js"></script>
+    <script src="../Javascript/Concepts2.js"></script>
+    <script src="../Javascript/Concepts3.js"></script>
+    <script src="../Javascript/Concepts4.js"></script>
+    <script src="../Javascript/Image.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ol>
+                <li><a href="../../Lim Wei Yang/Web/Home Page (On).html"><img class="mainPicture" src="../../Lim Wei Yang/Image/Logo_Signature croped.jpg"
+                            alt="Main Picture"></a></li>
+    
+                <div class="dropdownA">
+                    <li class="text">About Me</li>
+                    <div class="dropdown" id="dropdowna">
+                        <a href="../../Quek/HTML/About Us On.html">About Us</a>
+                        <a href="../../Quek/HTML/About Us On.html#contactUs">Contact Us</a>
+                    </div>
+                </div>
+                <div class="dropdownP">
+                    <li class="text">Project</li>
+                    <div class="dropdown" id="dropdownp">
+                        <a href="../../Brenden/HTML/Project (Custom Design) On.html">Custom Design</a>
+                        <a href="../../Brenden/HTML/Project (Knit Craft) On.html">Knit Crafts</a>
+                        <a href="../../Brenden/HTML/Project (Reconstruction) On.html">Reconstruction</a>
+                    </div>
+                </div>
+                <div class="dropdownC">
+                    <li class="text">Concept</li>
+                    <div class="dropdown" id="dropdownc">
+                        <a href="../../Quek/HTML/Concepts(CustomDesign Online).html">Custom Design</a>
+                        <a href="../../Quek/HTML/Concepts(Reconstruction Online).html">Reconstruction</a>
+                    </div>
+                </div>
+                <div class="dropdownAc">
+                    <li class="text">Account</li>
+                    <div class="dropdown" id="dropdownaco">
+                        <a href="../../Lim Wei Yang/Web/Users Profile (Cross).html">User's Profile</a>
+                        <a href="../../Quek/HTML/Shooping Cart (Full Item).html">Purchase Cart</a>
+                        <a href="../../Lim Wei Yang/Web/Home Page (Off).html">Log Out</a>
+                    </div>
+    
+                </div>
+    
+            </ol>
+        </nav>
+    </header>
+    
+    <h1 style="padding-left:153px;font-size: 35px;text-decoration: underline;">Custom Design Concepts</h1>
+    <!--1st and 2nd content title-->
+
+    <div id="picture">
+
+        <div class="row1">
+            <div>1. 1950's Inspired Dress</div>
+            <div>2. Hatler Neck Crop Top</div>
+        </div>
+        <div class="row2">
+            <div class="column">
+                <!--1st Concept Category-->
+                <img src="../Picture/Concepts(Custom Design)/1950_s Inspired Dress 1 .jpg" alt=""
+                    class="hover-shadow cursor" id="InspiredDress" onclick="openModal1();showSlides1()"
+                    onmouseover="document.getElementById('InspiredDress').setAttribute('src','../Picture/Concepts(Custom Design)/1950_s Inspired Dress 2.jpg')"
+                    onmouseout="document.getElementById('InspiredDress').setAttribute('src','../Picture/Concepts(Custom Design)/1950_s Inspired Dress 1 .jpg')">
+            </div>
+            <div class="column">
+                <!--2nd Concept Category-->
+
+                <img src="../Picture/Concepts(Custom Design)/Halter Neck Crop Top 1.jpg" alt=""
+                    class="hover-shadow cursor" id="InspiredDress2" onclick="openModal2();showSlides2()"
+                    onmouseover="document.getElementById('InspiredDress2').setAttribute('src','../Picture/Project (Custom Design)/Halter Neck Crop Top1.jpg')"
+                    onmouseout="document.getElementById('InspiredDress2').setAttribute('src','../Picture/Concepts(Custom Design)/Halter Neck Crop Top 1.jpg')">
+            </div>
+
+
+
+
+        </div>
+        <div class="row3">
+            <!--3rd and 4th content title-->
+            <div>3. A-Line Skirt</div>
+            <div>4. Pencil Skirt</div>
+        </div>
+        <div class="row4">
+            <!--3rd Concept Category-->
+            <div class="column">
+
+                <img src="../Picture/Concepts(Custom Design)/A-Line Skirt 1.jpg" alt="" class="hover-shadow cursor"
+                    id="InspiredDress3" onclick="openModal3();showSlides3()"
+                    onmouseover="document.getElementById('InspiredDress3').setAttribute('src','../Picture/Project (Custom Design)/A-Line Skirt.jpg')"
+                    onmouseout="document.getElementById('InspiredDress3').setAttribute('src','../Picture/Concepts(Custom Design)/A-Line Skirt 1.jpg')">
+
+            </div>
+            <div class="column">
+                <!--4th Concept Category-->
+
+                <img src="../Picture/Concepts(Custom Design)/Pencil Skirt1.jpg" alt="" class="hover-shadow cursor"
+                    id="InspiredDress4" onclick="openModal4();showSlides4()"
+                    onmouseover="document.getElementById('InspiredDress4').setAttribute('src','../Picture/Project (Custom Design)/Pencil Skirt1.jpg')"
+                    onmouseout="document.getElementById('InspiredDress4').setAttribute('src','../Picture/Concepts(Custom Design)/Pencil Skirt1.jpg')">
+
+            </div>
+
+        </div>
+
+
+
+        <div>
+            <!--1st Category Lightbox-->
+            <div>
+                <div id="myModal" class="modal" style="display :none;">
+                    <span class="close cursor" onclick="closeModal1()">&times;</span>
+                    <div class="modal-content">
+                        <div class="mySlides">
+                            <div class="numbertext">1 / 2</div>
+                            <img src="../Picture/Concepts(Custom Design)/1950_s Inspired Dress 1 .jpg"
+                                style="width: 500px;">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 2</div>
+                            <img src="../Picture/Concepts(Custom Design)/1950_s Inspired Dress 2.jpg"
+                                style="width: 500px;">
+                        </div>
+                        <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides1(1)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--2nd Category Lightbox-->
+            <div>
+                <div id="myModal2" class="modal" style="display :none;">
+                    <span class="close cursor" onclick="closeModal2()">&times;</span>
+                    <div class="modal-content">
+                        <div class="mySlides2">
+                            <div class="numbertext">1 / 4</div>
+                            <img src="../Picture/Concepts(Custom Design)/Halter Neck Crop Top 1.jpg"
+                                style="width: 500px;">
+                        </div>
+
+                        <div class="mySlides2">
+                            <div class="numbertext">2 / 4</div>
+                            <img src="../Picture/Concepts(Custom Design)/Halter Neck Crop Top2.jpg" style="width: 500px;">
+                        </div>
+
+                        <div class="mySlides2">
+                            <div class="numbertext">3 / 4</div>
+                            <img src="../Picture/Concepts(Custom Design)/Halter Neck Crop Top3.jpg" style="width: 500px;">
+                        </div>
+
+                        <div class="mySlides2">
+                            <div class="numbertext">4 / 4</div>
+                            <img src="../Picture/Concepts(Custom Design)/Halter Neck Crop Top4.jpg" style="width: 500px;">
+                        </div>
+                        <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--3rd Category Lightbox-->
+            <div>
+                <div id="myModal3" class="modal" style="display :none;">
+                    <span class="close cursor" onclick="closeModal3()">&times;</span>
+                    <div class="modal-content">
+                        <div class="mySlides3">
+                            <div class="numbertext">1 / 3</div>
+                            <img src="../Picture/Concepts(Custom Design)/A-Line Skirt 1.jpg" style="width: 500px;">
+                        </div>
+
+                        <div class="mySlides3">
+                            <div class="numbertext">2 / 3</div>
+                            <img src="../Picture/Concepts(Custom Design)/A-Line Skirt 2.jpg" style="width: 500px;">
+                        </div>
+
+                        <div class="mySlides3">
+                            <div class="numbertext">3 / 3</div>
+                            <img src="../Picture/Concepts(Custom Design)/A-Line Skirt 3.jpg" style="width: 500px;">
+                        </div>
+                        <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--4th Category Lightbox-->
+            <div>
+                <div id="myModal4" class="modal" style="display :none;">
+                    <span class="close cursor" onclick="closeModal4()">&times;</span>
+                    <div class="modal-content">
+                        <div class="mySlides4">
+                            <div class="numbertext">1 / 5</div>
+                            <img src="../Picture/Concepts(Custom Design)/Pencil Skirt1.jpg" style="width: 500px;">
+                        </div>
+
+                        <div class="mySlides4">
+                            <div class="numbertext">2 / 5</div>
+                            <img src="../Picture/Concepts(Custom Design)/Pencil Skirt2.jpg" style="width: 500px;">
+                        </div>
+
+                        <div class="mySlides4">
+                            <div class="numbertext">3 / 5</div>
+                            <img src="../Picture/Concepts(Custom Design)/Pencil Skirt3.jpg" style="width: 500px;">
+                        </div>
+
+                        <div class="mySlides4">
+                            <div class="numbertext">4 / 5</div>
+                            <img src="../Picture/Concepts(Custom Design)/Pencil Skirt4.jpg" style="width: 500px;">
+                        </div>
+                        <div class="mySlides4">
+                            <div class="numbertext">5 / 5</div>
+                            <img src="../Picture/Concepts(Custom Design)/Pencil Skirt5.jpg" style="width: 500px;">
+                        </div>
+                        <a class="prev" onclick="plusSlides4(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides4(1)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <audio loop autoplay>
+        <source src="../Media/Directed by Robert B. Weide- theme meme.mp3"
+            type="audio/mpeg">
+            <p>Upgrade your browser to HTML5</p>
+    </audio>
+
+</body>
+
+<footer>
+    <img src="../Picture/Contact Us Edited.png" alt="Contact" usemap="#contact_us" id="contactImg">
+
+    <map name="contact_us" id="contact_us">
+        <area shape="rect" coords="28,52,64,88" href="https://www.facebook.com/wongofficial/" alt="facebook"
+            target="_blank">
+        <area shape="rect" coords="28,103,64,138" href="https://www.instagram.com/official_wong_/?hl=en" alt="instagram"
+            target="_blank">
+    </map>
+</footer>
+
+</html>

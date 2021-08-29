@@ -1,0 +1,120 @@
+fieldset{
+    color: white;
+    border: none;
+}
+
+fieldset img{
+    width: 150px;
+    margin: 0 20px;
+}
+
+fieldset div{
+    margin: 50px 0;
+    margin-left: 30px;
+}
+
+input.card1{
+    margin-top: -80px;
+    vertical-align: middle;
+}
+
+input.card2{
+    margin-top: -80px;
+    vertical-align: middle;
+}
+
+input.card3{
+    margin-top: -40px;
+    vertical-align: middle;
+}
+
+p.card1{
+    margin-left: 230px;
+    margin-top: -60px;
+}
+p.card2{
+    margin-left: 230px;
+    margin-top: -60px;
+}
+
+p.card3{
+    margin-left: 230px;
+    margin-top: -40px;
+}
+
+div#password{
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+div#password label{
+    margin-right: 40px;
+}
+
+div#password input{
+    width: 200px;
+    background-color: gray;
+    color: white;
+}
+
+div#password input::placeholder{
+    color:white;
+}
+
+div#card{
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+div#card label{
+    margin-right: 53px;
+}
+
+div#card input{
+    width: 200px;
+    background-color: gray;
+    color: white;
+}
+
+div#cardP input::placeholder{
+    color:white;
+}
+
+div#cardP{
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+div#cardP label{
+    margin-right: 45px;
+}
+
+div#cardP input{
+    width: 200px;
+    background-color: gray;
+    color: white;
+}
+
+div#card input::placeholder{
+    color:white;
+}
+
+button{
+    margin: 20px 0;
+    margin-left: 40px;
+    width: 100px;
+}
+
+button#submit{
+    margin-left: 950px;
+}
+
+h1{
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+fieldset label#B{
+    margin-left: 20px;
+    font-size: 30px;
+}

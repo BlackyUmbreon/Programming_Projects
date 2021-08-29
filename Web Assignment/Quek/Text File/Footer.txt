@@ -1,0 +1,8 @@
+<footer>
+        <img src="/Image/Contact Us.jpg" alt="Contact" usemap="#contact_us">
+
+        <map name="contact_us" id="contact_us">
+            <area shape="rect" coords="28,52,64,88" href="https://www.facebook.com/wongofficial/" alt="facebook">
+            <area shape="rect" coords="28,103,64,138" href="#" alt="instagram">
+        </map>
+    </footer>

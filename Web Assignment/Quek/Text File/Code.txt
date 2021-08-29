@@ -1,0 +1,41 @@
+<header>
+    <nav>
+        <ol>
+            <li><a href="Home Page (Off).html"><img class="mainPicture" src="/Image/Logo_Signature croped.jpg"
+                        alt="Main Picture"></a></li>
+
+            <div class="dropdownA">
+                <li class="text">About Me</li>
+                <div class="dropdown" id="dropdowna">
+                    <a href="">About Us</a>
+                    <a href="">Contact Us</a>
+                </div>
+            </div>
+            <div class="dropdownP">
+                <li class="text">Project</li>
+                <div class="dropdown" id="dropdownp">
+                    <a href="">Custom Design</a>
+                    <a href="">Knit Crafts</a>
+                    <a href="">Reconstruction</a>
+                </div>
+            </div>
+            <div class="dropdownC">
+                <li class="text">Concept</li>
+                <div class="dropdown" id="dropdownc">
+                    <a href="">Custom Design</a>
+                    <a href="">Reconstruction</a>
+                </div>
+            </div>
+            <div class="dropdownAc">
+                <li class="text">Account</li>
+                <div class="dropdown" id="dropdownaco">
+                    <a href="User's Profile.html">User's Profile</a>
+                    <a href="">Purchase Cart</a>
+                    <a href="Home Page (Off).html">Log Out</a>
+                </div>
+
+            </div>
+
+        </ol>
+    </nav>
+</header>
