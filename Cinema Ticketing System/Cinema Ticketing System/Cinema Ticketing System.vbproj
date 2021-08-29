@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0BEB951D-9E85-4763-8467-936E7DB94817}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Cinema_Ticketing_System.My.MyApplication</StartupObject>
+    <RootNamespace>Cinema_Ticketing_System</RootNamespace>
+    <AssemblyName>Cinema Ticketing System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Cinema Ticketing System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Cinema Ticketing System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon left.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="QRCoder, Version=1.3.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\QRCoder.1.3.6\lib\net40\QRCoder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Common, Version=4.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.4.7.0\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add Staff.Designer.vb">
+      <DependentUpon>Add Staff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Add Staff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Data Control.Designer.vb">
+      <DependentUpon>Data Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Data Control.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DB_CinemaDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_CinemaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forgot Password.Designer.vb">
+      <DependentUpon>Forgot Password.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forgot Password.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home Log in.Designer.vb">
+      <DependentUpon>Home Log in.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home Log in.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home Movie Detail.Designer.vb">
+      <DependentUpon>Home Movie Detail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home Movie Detail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kiosk Home.Designer.vb">
+      <DependentUpon>Kiosk Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kiosk Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kiosk Member.Designer.vb">
+      <DependentUpon>Kiosk Member.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kiosk Member.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kiosk Splash.Designer.vb">
+      <DependentUpon>Kiosk Splash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kiosk Splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kiosk Step 1 %28 VIP %29.Designer.vb">
+      <DependentUpon>Kiosk Step 1 %28 VIP %29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kiosk Step 1 %28 VIP %29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kiosk Step 1 %28Standard%29.Designer.vb">
+      <DependentUpon>Kiosk Step 1 %28Standard%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kiosk Step 1 %28Standard%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kiosk Step 2.Designer.vb">
+      <DependentUpon>Kiosk Step 2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kiosk Step 2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kiosk Step 3.Designer.vb">
+      <DependentUpon>Kiosk Step 3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kiosk Step 3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kiosk Step4.Designer.vb">
+      <DependentUpon>Kiosk Step4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kiosk Step4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Member Registration.Designer.vb">
+      <DependentUpon>Member Registration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Member Registration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modify Food.Designer.vb">
+      <DependentUpon>Modify Food.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modify Food.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modify Member.Designer.vb">
+      <DependentUpon>Modify Member.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modify Member.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modify Movie.Designer.vb">
+      <DependentUpon>Modify Movie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modify Movie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modify Show TIme.Designer.vb">
+      <DependentUpon>Modify Show TIme.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modify Show TIme.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modify Staff.Designer.vb">
+      <DependentUpon>Modify Staff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modify Staff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Movie Details.Designer.vb">
+      <DependentUpon>Movie Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Movie Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Please wait.Designer.vb">
+      <DependentUpon>Please wait.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Please wait.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reserve Step 1 %28 STD %29.Designer.vb">
+      <DependentUpon>Reserve Step 1 %28 STD %29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reserve Step 1 %28 STD %29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reserve Step 1 %28 VIP %29.Designer.vb">
+      <DependentUpon>Reserve Step 1 %28 VIP %29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reserve Step 1 %28 VIP %29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reserve Step 2.Designer.vb">
+      <DependentUpon>Reserve Step 2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reserve Step 2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reserve Step 3.Designer.vb">
+      <DependentUpon>Reserve Step 3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reserve Step 3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reserve Step 4.Designer.vb">
+      <DependentUpon>Reserve Step 4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reserve Step 4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales Report.Designer.vb">
+      <DependentUpon>Sales Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sales Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash Screen.Designer.vb">
+      <DependentUpon>Splash Screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splash Screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemSelection.Designer.vb">
+      <DependentUpon>SystemSelection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SystemSelection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Add Staff.resx">
+      <DependentUpon>Add Staff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data Control.resx">
+      <DependentUpon>Data Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forgot Password.resx">
+      <DependentUpon>Forgot Password.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Log in.resx">
+      <DependentUpon>Home Log in.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Movie Detail.resx">
+      <DependentUpon>Home Movie Detail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kiosk Home.resx">
+      <DependentUpon>Kiosk Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kiosk Member.resx">
+      <DependentUpon>Kiosk Member.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kiosk Splash.resx">
+      <DependentUpon>Kiosk Splash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kiosk Step 1 %28 VIP %29.resx">
+      <DependentUpon>Kiosk Step 1 %28 VIP %29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kiosk Step 1 %28Standard%29.resx">
+      <DependentUpon>Kiosk Step 1 %28Standard%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kiosk Step 2.resx">
+      <DependentUpon>Kiosk Step 2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kiosk Step 3.resx">
+      <DependentUpon>Kiosk Step 3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kiosk Step4.resx">
+      <DependentUpon>Kiosk Step4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Member Registration.resx">
+      <DependentUpon>Member Registration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modify Food.resx">
+      <DependentUpon>Modify Food.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modify Member.resx">
+      <DependentUpon>Modify Member.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modify Movie.resx">
+      <DependentUpon>Modify Movie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modify Show TIme.resx">
+      <DependentUpon>Modify Show TIme.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modify Staff.resx">
+      <DependentUpon>Modify Staff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Movie Details.resx">
+      <DependentUpon>Movie Details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Please wait.resx">
+      <DependentUpon>Please wait.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reserve Step 1 %28 STD %29.resx">
+      <DependentUpon>Reserve Step 1 %28 STD %29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reserve Step 1 %28 VIP %29.resx">
+      <DependentUpon>Reserve Step 1 %28 VIP %29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reserve Step 2.resx">
+      <DependentUpon>Reserve Step 2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reserve Step 3.resx">
+      <DependentUpon>Reserve Step 3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reserve Step 4.resx">
+      <DependentUpon>Reserve Step 4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales Report.resx">
+      <DependentUpon>Sales Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash Screen.resx">
+      <DependentUpon>Splash Screen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemSelection.resx">
+      <DependentUpon>SystemSelection.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_CinemaDataSet.xsc">
+      <DependentUpon>DB_CinemaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DB_CinemaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_CinemaDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_CinemaDataSet.xss">
+      <DependentUpon>DB_CinemaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DB Cinema.mdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DB Cinema_log.ldf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <DependentUpon>DB Cinema.mdf</DependentUpon>
+    </Content>
+    <Content Include="Icon left.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
