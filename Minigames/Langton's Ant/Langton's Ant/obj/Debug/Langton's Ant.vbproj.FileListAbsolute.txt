@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\Minigames\Langton's Ant\Langton's Ant\bin\Debug\Langton's Ant.exe.config
+C:\Users\user\Desktop\Minigames\Langton's Ant\Langton's Ant\bin\Debug\Langton's Ant.exe
+C:\Users\user\Desktop\Minigames\Langton's Ant\Langton's Ant\bin\Debug\Langton's Ant.pdb
+C:\Users\user\Desktop\Minigames\Langton's Ant\Langton's Ant\bin\Debug\Langton's Ant.xml
+C:\Users\user\Desktop\Minigames\Langton's Ant\Langton's Ant\obj\Debug\Langton's Ant.vbprojAssemblyReference.cache
+C:\Users\user\Desktop\Minigames\Langton's Ant\Langton's Ant\obj\Debug\Langton_s_Ant.Form1.resources
+C:\Users\user\Desktop\Minigames\Langton's Ant\Langton's Ant\obj\Debug\Langton_s_Ant.Resources.resources
+C:\Users\user\Desktop\Minigames\Langton's Ant\Langton's Ant\obj\Debug\Langton's Ant.vbproj.GenerateResource.cache
+C:\Users\user\Desktop\Minigames\Langton's Ant\Langton's Ant\obj\Debug\Langton's Ant.vbproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Minigames\Langton's Ant\Langton's Ant\obj\Debug\Langton's Ant.exe
+C:\Users\user\Desktop\Minigames\Langton's Ant\Langton's Ant\obj\Debug\Langton's Ant.xml
+C:\Users\user\Desktop\Minigames\Langton's Ant\Langton's Ant\obj\Debug\Langton's Ant.pdb
