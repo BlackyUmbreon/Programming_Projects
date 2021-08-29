@@ -1,0 +1,20 @@
+cl scr
+PROMPT 'Finding number of adults by booking id and booking status'
+PROMPT
+PROMPT
+ACCEPT v_booking_status char  FORMAT 'A30'       PROMPT 'Enter Booking status                      :'
+PROMPT
+PROMPT
+
+Set linesize 180
+Column cust_fname A20
+Column cust_Lname A20
+Column booking_id format A20
+Column booking_status format A20
+Column cust_id format A20
+TTITLE Center 'Search number of adults by booking status'
+Select C.cust_id ,C.cust_fname,C.cust_Lname, C.cust_Phone, B.booking_id, B.booking_status, A.No_of_Adult
+From  Booking B, Customer C , booking_detail A
+Where (UPPER(B.booking_status) = UPPER('&v_booking_status') AND B.cust_id = C.cust_id) AND B.booking_id = A.booking_id;
+TTitle off;
+clear column

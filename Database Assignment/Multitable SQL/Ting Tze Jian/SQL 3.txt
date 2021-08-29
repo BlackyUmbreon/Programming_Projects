@@ -1,0 +1,23 @@
+cl scr
+PROMPT 'Finding Customer details  with customer country enter'
+PROMPT
+PROMPT
+ACCEPT v_address_country  char  FORMAT 'A30'   PROMPT 'Enter Country                      :'
+PROMPT
+PROMPT
+
+Set linesize 180
+Set pagesize 60
+Column address_country format A20
+Column cust_id format A20
+Column cust_fname format A20
+Column cust_lname format A20
+Column cust_phone format A20
+Column cust_email format A30
+Column address_id format A20
+TTITLE Center 'Search Customer details with customer country'
+Select C.*,A.address_country
+From customer C, address A 
+Where A.Address_Id = C.Address_Id AND A.Address_country  ='&v_address_country';
+TTitle off;
+clear column

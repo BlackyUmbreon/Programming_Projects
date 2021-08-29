@@ -1,0 +1,23 @@
+cl scr
+PROMPT 'Finding Room capacity'
+PROMPT
+PROMPT
+ACCEPT v_adult_capacity  number FORMAT '9999' PROMPT 'Enter Adult Capacity : '
+ACCEPT v_child_capacity  number FORMAT '9999' PROMPT 'Enter Child Capacity : '
+ACCEPT v_start_booking_date  date                   PROMPT 'Enter Starting Booking Date (DD-MMM-YYYY)    :'
+ACCEPT v_end_booking_date  date                     PROMPT 'Enter Ending   Booking Date (DD-MMM-YYYY)    :'
+PROMPT
+PROMPT
+
+set linesize 180
+set pagesize 100
+column room_type format A20
+column room_status format A20
+column room_price format '9999.99'
+column cust_email format A30
+TTITLE Center 'Room Room capacity'
+Select C.*,B.booking_id,B.no_of_adult,B.no_of_child
+From customer C, booking A, booking_detail B
+where ((C.cust_ID = A.cust_ID AND A.booking_id = B.booking_id ) AND B.Booking_date between '&v_start_booking_date' AND '&v_end_booking_date' ) AND (B.no_of_adult = &v_adult_capacity AND B.no_of_child = &v_child_capacity);
+TTitle off;
+clear column;

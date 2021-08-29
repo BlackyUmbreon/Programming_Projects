@@ -1,0 +1,21 @@
+cl scr
+PROMPT 'Search by Payment Amount'
+PROMPT
+PROMPT
+ACCEPT v_Payment_Amount  number  FORMAT '999999.99'   PROMPT 'Enter Payment Amount                        :'
+PROMPT
+PROMPT
+
+Set linesize 65
+Set pagesize 30 
+Column Payment_ID format A15
+Column Payment_Type format A15
+Column Payment_Amount format 999999.99
+Column Booking_ID format A15
+TTITLE Center 'Search Booking ID with Payment Amount'
+Select P.Payment_ID, P.Payment_Amount, P.Payment_Type, B.Booking_ID  
+From payment P, booking B 
+Where P.Payment_Amount<=&v_Payment_Amount AND B.Booking_ID=P.Booking_ID
+Order by P.Payment_Amount;
+TTitle off;
+clear column;

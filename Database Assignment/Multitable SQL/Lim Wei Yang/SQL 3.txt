@@ -1,0 +1,24 @@
+cl scr
+PROMPT 'Check Room Availability'
+PROMPT
+PROMPT
+ACCEPT v_booking_status                char    FORMAT 'A30'          PROMPT 'Enter Booking Status                     :'
+ACCEPT v_room_status       char FORMAT 'A30'                         PROMPT 'Enter Room Status                        :'
+ACCEPT v_end_booking_date         date                               PROMPT 'Enter Starting Booking Date (DD-MMM-YYYY):'
+ACCEPT v_end_booking_date         date                               PROMPT 'Enter Ending   Booking Date (DD-MMM-YYYY):'
+PROMPT
+PROMPT
+
+set linesize 120
+set pagesize 100
+column room_type format A20
+column room_status format A15
+column booking_status format A15
+TTITLE Center 'Check Room Availability'
+PROMPT
+select R.room_id,R.room_type,R.adult_Capacity,R.child_Capacity,R.room_status,B.Booking_date,A.booking_status
+from room R, booking_detail B, booking A
+where (((UPPER(R.room_status) = UPPER('&v_room_status') AND R.room_id = B.room_id) AND B.Booking_date between '&v_start_booking_date' AND '&v_end_booking_date') AND B.booking_ID = A.booking_ID) AND UPPER(A.booking_status) = UPPER('&v_booking_status')
+order by B.Booking_date;
+TTitle off;
+clear column;

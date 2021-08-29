@@ -1,0 +1,21 @@
+cl scr
+PROMPT 'Finding Booking details with the discount entered'
+PROMPT
+PROMPT
+ACCEPT v_discount  number  FORMAT '99999.99'   PROMPT   'Enter Discount                      :'
+PROMPT
+PROMPT
+
+Set linesize 120
+Column booking_status format A15
+Column payment_id format A20
+Column payment_type format A20
+Column booking_id format A20
+column discount format '999'
+TTITLE Center 'Search Booking details with discount lists'
+Select P.Payment_ID, P.Payment_Amount, P.Payment_Type, P.Discount*100 as Discount, B.Booking_ID, B.Booking_Status 
+From payment P, booking B 
+Where P.discount<&v_discount AND B.Booking_ID=P.Booking_ID
+order by P.Payment_Amount, P.Discount;
+TTitle off;
+clear column

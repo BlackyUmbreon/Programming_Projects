@@ -1,0 +1,7 @@
+Create table Hotel (
+	hotel_id   varchar(5)   not null,
+	hotel_name varchar(40)  not null,
+	address_id  varchar(8)  not null,
+Primary key (hotel_id),
+Foreign key (address_id) references Address (address_id)
+);

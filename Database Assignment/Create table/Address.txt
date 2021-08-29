@@ -1,0 +1,7 @@
+Create table Address (
+	address_id	   varchar(8)   not null,
+	address_country varchar(15) not null,
+	address_state    varchar(20) not null,
+	address_city   varchar(20) not null,
+Primary key(address_id)
+);

@@ -1,0 +1,15 @@
+Insert into Address Values ('A010101', 'Indonesia', 'Riau', 'Minas');
+Insert into Address Values ('A000101', 'Malaysia', 'Melaka', 'Bukit Baru');
+Insert into Address Values ('A010201', 'Indonesia', 'Papua', 'Tiom');
+Insert into Address Values ('A010301', 'Indonesia', 'Aceh', 'Sabang');
+Insert into Address Values ('A010401', 'Indonesia', 'Banten', 'Serang City');
+Insert into Address Values ('A020101', 'Thailand', 'Ang Thong', 'Wat Muang');
+Insert into Address Values ('A020201', 'Thailand', 'Chiang Mai', 'Hiaya');
+Insert into Address Values ('A020202', 'Thailand', 'Tak', 'Mae Sot');
+Insert into Address Values ('A030101', 'Japan', 'Kanto', 'Tokyo');
+Insert into Address Values ('A030201', 'Japan', 'Kansai', 'Kawaguchi');
+Insert into Address Values ('A040101', 'Korea', 'Gangwon', 'Yanggu');
+Insert into Address Values ('A050102', 'China', 'Fujian', 'Chenzhou');
+Insert into Address Values ('A060101', 'India', 'Jaipur', 'Pink City');
+Insert into Address Values ('A070101', 'United States', 'Texas', 'San Angelo');
+Insert into Address Values ('A070201', 'United States', 'New Jersey', 'Princeton');

@@ -1,0 +1,21 @@
+cl scr
+PROMPT 'Finding Customer details and booking details with customer details and booking details entered'
+PROMPT
+PROMPT
+ACCEPT v_cust_fname char  FORMAT 'A30'       PROMPT 'Enter Customer first name                      :'
+ACCEPT v_booking_status char  FORMAT 'A30'   PROMPT 'Enter Booking status                           :'
+PROMPT
+PROMPT
+
+Set linesize 120
+Column cust_fname A20
+Column cust_Lname A20
+Column booking_id format A20
+Column booking_status format A20
+Column cust_id format A20
+TTITLE Center 'Search Customer details and booking details with customer details and booking details'
+Select C.cust_id ,C.cust_fname,C.cust_Lname, B.booking_id, B.booking_status
+From customer C, Booking B 
+Where (C.cust_id = B.cust_id AND C.cust_fname = '&v_cust_fname') AND UPPER(B.booking_status) = UPPER('&v_booking_status');
+TTitle off;
+clear column

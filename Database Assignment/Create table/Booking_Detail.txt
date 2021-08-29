@@ -1,0 +1,12 @@
+Create table Booking_Detail (
+	booking_id  varchar(5)  not null,
+	room_id  varchar(5)  not null,
+	check_in  date  not null,
+	check_out  date  not null,
+	no_of_adult  number  not null,
+	no_of_child   number  not null,
+	booking_date  date  not null,
+Primary key (booking_id, room_id),
+Foreign key (booking_id) references Booking (booking_id),
+Foreign key (room_id) references Room (room_id)
+);

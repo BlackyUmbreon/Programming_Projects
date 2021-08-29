@@ -1,0 +1,1 @@
+Insert into Hotel Values ('H001', 'Hilton Hotel', 'A000101');

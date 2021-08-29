@@ -1,0 +1,11 @@
+Create table Payment (
+	payment_id   varchar(5)    not null,
+	payment_amount   number(10,2)   not null,
+	payment_type  varchar(4)  not null,
+	Discount  number(10,2),
+	Rounding  number(10,2),
+	Tax_rate   number(10,2)  not null,
+	Booking_id  varchar(5)  not null,
+Primary key (payment_id),
+Foreign key (booking_id) references Booking(booking_id)
+);

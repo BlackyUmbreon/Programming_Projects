@@ -1,0 +1,18 @@
+cl scr
+PROMPT 'Finding Room'
+PROMPT
+PROMPT
+ACCEPT v_room_type  char  FORMAT 'A30'   PROMPT 'Enter Room Type                        :'
+ACCEPT v_start_booking_date  date  PROMPT 'Enter Starting Booking Date (DD-MMM-YYYY):'
+ACCEPT v_end_booking_date  date   PROMPT 'Enter Ending   Booking Date (DD-MMM-YYYY):'
+PROMPT
+PROMPT
+
+set linesize 100
+column room_type format A30
+TTITLE Center 'Room Search For'
+select R.room_id,R.room_type,R.adult_Capacity,R.child_Capacity,R.room_status,B.Booking_date
+from room R, booking_detail B
+where (R.room_id = B.room_id AND B.Booking_date between '&v_start_booking_date' AND '&v_end_booking_date') AND R.room_type = '&v_room_type';
+TTitle off;
+clear column;
