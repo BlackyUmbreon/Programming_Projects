@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\Minigames\Tetris\Tetris\bin\Debug\Tetris.exe.config
+C:\Users\user\Desktop\Minigames\Tetris\Tetris\bin\Debug\Tetris.exe
+C:\Users\user\Desktop\Minigames\Tetris\Tetris\bin\Debug\Tetris.pdb
+C:\Users\user\Desktop\Minigames\Tetris\Tetris\bin\Debug\Tetris.xml
+C:\Users\user\Desktop\Minigames\Tetris\Tetris\obj\Debug\Tetris.vbprojAssemblyReference.cache
+C:\Users\user\Desktop\Minigames\Tetris\Tetris\obj\Debug\Tetris.Form1.resources
+C:\Users\user\Desktop\Minigames\Tetris\Tetris\obj\Debug\Tetris.Resources.resources
+C:\Users\user\Desktop\Minigames\Tetris\Tetris\obj\Debug\Tetris.vbproj.GenerateResource.cache
+C:\Users\user\Desktop\Minigames\Tetris\Tetris\obj\Debug\Tetris.vbproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Minigames\Tetris\Tetris\obj\Debug\Tetris.exe
+C:\Users\user\Desktop\Minigames\Tetris\Tetris\obj\Debug\Tetris.xml
+C:\Users\user\Desktop\Minigames\Tetris\Tetris\obj\Debug\Tetris.pdb
