@@ -1,8 +1,0 @@
-Create table Booking (
-	booking_id  varchar(5)   not null,
-	booking_status  varchar(3)   not null,
-	cust_id   varchar(5)   not null,
-Primary key (booking_id),
-Foreign key (cust_id) references Customer (cust_id),
-Constraint chk_booking_status check  (UPPER(booking_status) IN ('YES','NO'))
-);
