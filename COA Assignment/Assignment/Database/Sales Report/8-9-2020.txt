@@ -1,8 +1,0 @@
-8-9-2020|3
-F002|Fried Chicken with Salad
-3|4.00
-B010|Iced Lemon Tea
-2|5.00
-F002|Fried Chicken with Salad
-1|4.50
-26.50 2.65 3.97 10.00 35.18 0.02 35.20 41.00 5.80
